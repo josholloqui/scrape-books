@@ -1,5 +1,5 @@
-const request = require('./request');
-const parser = require('./parser');
+const request = require('../lib/request');
+const parser = require('../lib/parser');
 
 describe('parse function', () => {
   it('returns object book from document request', async() => {
